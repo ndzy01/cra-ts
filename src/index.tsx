@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Http from './axios/Http';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,9 +14,9 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Http />
   </React.StrictMode>,
-  document.getElementById('test'),
+  document.getElementById('http'),
 );
 
 // If you want to start measuring performance in your app, pass a function
